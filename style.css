@@ -1,0 +1,113 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	background-color: #Ffc75e;
+}
+body {
+	padding: 50px;
+}
+.container {
+	width: 1024px;
+	height: 400px;
+	background-color: #ffffff;
+	border-radius: 22px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+}
+.container p {
+	color: black;
+	opacity: 0.7;
+	background-color: #FF7C02;
+	border-radius: 22px;
+	padding: 15px;
+}
+.container h2 {
+	color: black;
+	background-color: #FF7C02;
+	padding: 20px;
+	border-radius: 22px;
+}
+.nav {
+	background-color: #ffffff;
+	width: 1100px;
+	padding: 15px;
+	opacity: 0.5;
+	border-radius: 22px;
+}
+.nav-item {
+	background-color: #ffffff;
+	opacity: 0.5;
+	display: inline-flex;
+}
+.nav-item a {
+	text-decoration: none;
+	background-color: #ffffff;
+	opacity: 0.5;
+	color: black;
+}
+.title {
+	text-align: center;
+	text-transform: capitalize;
+	color: #726a95;
+	margin: 10px 0;
+	position: relative;
+}
+.title::after {
+	content: "";
+	position: absolute;
+	width: 20%;
+	height: 2px;
+	background-image: linear-gradient(to left, transparent 5%,#726a95);
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.position {
+	color: #726a95;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0;
+	position: relative;
+}
+.position::after {
+	content: "";
+	position: absolute;
+	width: 20%;
+	height: 2px;
+	background-image: linear-gradient(to left, transparent 5%,#726a95);
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.team-row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.member {
+	flex: 1 1 250px;
+	margin: 20px;
+	text-align: center;
+	padding: 20px 10px;
+	cursor: pointer;
+	max-width: 300px;
+}
+.member:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	transform: translateY(-20px);
+}
+.member img {
+	display: block;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 4px solid #726a95;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.member h3 {
+	font-size: 24px;
+	color: #726a95;
+	margin: 15px 0;
+}
